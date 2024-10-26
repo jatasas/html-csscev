@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes css</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm,mm,in,px,pt,pc
+            
+            medidas relativas
+            em,ex,rem,vw,vh,%
+            
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* weight  width    height
+               peso    largura  altura             
+            */
+            /* pesos: lighter,normal,bold,bolder
+              100 - 900 */
+            font-style: normal;
+            /*text-decoration: underline;  PARA SUBLINHAR TD */
+        
+        }
+
+        h1 {
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 2em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bolder 2em 'work-sens' sans-serif;
+        }
+    </style>
+</head>
+<body >
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident hic ratione eos perspiciatis soluta accusantium recusandae blanditiis a culpa fugit deleniti consequatur nostrum distinctio possimus labore temporibus, modi nulla vero.</p>
+    <h2>sub ex</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consequatur adipisci minus aliquid fuga obcaecati aspernatur odio expedita, dolor officia magnam incidunt, mollitia atque? Veniam eaque modi ducimus necessitatibus blanditiis.</p>
+</body>
+</html>
